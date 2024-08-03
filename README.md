@@ -1,3 +1,5 @@
+<img src='https://github.com/fabiomatricardi/Gemma2-2b-it-chatbot/raw/main/images/Gemma-2-Banner.original.jpg' width=800>
+
 # Gemma2-2b-it-chatbot
 Repo of the code from the Medium article about running Gemma2 2b locally
 
