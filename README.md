@@ -77,7 +77,7 @@ Added a Toggle to enable Truns chat
 streamlit run .\stappFULL.py
 ```
 
-
+<img src='https://github.com/fabiomatricardi/Gemma2-2b-it-chatbot/raw/main/Gemma2b-chatTurns.gif' width=900>
 
 
 
