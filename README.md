@@ -69,3 +69,16 @@ Run the `.bat` file or with the venv activated run
 streamlit run .\stapp.py
 ```
 
+
+### CHAT TURN BASED
+Added a Toggle to enable Truns chat
+- it will consider always the last 5 messages (tunable)
+```
+streamlit run .\stappFULL.py
+```
+
+
+
+
+
+
