@@ -72,7 +72,7 @@ def create_chat():
     from llama_cpp import Llama
     client = Llama(
                 model_path='model/gemma-2-2b-it-Q5_K_M.gguf',
-                #n_gpu_layers=-1,  #enable GPU
+                n_gpu_layers=-1,  #enable GPU
                 temperature=0.24,
                 n_ctx=nCTX,
                 max_tokens=600,
@@ -199,3 +199,5 @@ if myprompt := st.chat_input("What is an AI model?"):
         st.session_state.messages.append({"role": "assistant", "content": full_response})
         st.session_state.chatMessages.append({"role": "assistant", "content": toregister})
         st.session_state.numOfTurns = len(st.session_state.messages)
+
+        
